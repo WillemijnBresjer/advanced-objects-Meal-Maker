@@ -51,6 +51,7 @@ const menu = {
       const dessert = this.getRandomDishFromCourse('desserts');
       const totalPrice = appetizer.price + main.price + dessert.price;
       return `Your meal is ${appetizer.name}, ${main.name} and ${dessert.name}. The total price for your meal is ${totalPrice} euros.`
+//    // I had some trouble here logging the correct message to the console as I initially used ${appetizer} etc., without the property keys. Once I realized that mistake and fixed it, the program worked perfectly!
     }
   };
   
